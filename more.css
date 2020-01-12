@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: lightblue;
+}
+
+h1{
+	height: 10%;
+	width: 100%;
+	color:darkslateblue;
+	font: bold 1.5em "Marko One", Georgia, serif;
+  	text-shadow: .1em .1em .2em white;
+	font-size:40px;
+}
+
+h2 {
+	height: 10%;
+	width: 100%;
+	color:darkslateblue;
+	font: bold 1.5em "Marko One", Georgia, serif;
+  	text-shadow: .1em .1em .2em white;
+	font-size:25px;
+}
+
+table {
+	align-self: center;
+	background-color: chocolate;
+	text-align: center;
+}
+
+p {
+	background-color:darkslateblue;
+	color:white;
+	font-family:Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	font-size:20px;
+	text-align: center;
+}
+
+img {
+    width: 250px;  
+    transition: width 2s, filter 1s;
+}
+
+img:hover {
+    width: 300px;
+    filter: brightness(150%);
+}s
+
+a { text-decoration: none;
+}
+a:link { color: maroon; }
+a:visited { color: gray; }
+a:focus { color: maroon; background-color: #ffd9d9; }
+a:hover { color: maroon; background-color: #ffd9d9; } a:active { color: red; background-color: #ffd9d9; }
+
+#a {
+	background-color:lightblue;
+}
